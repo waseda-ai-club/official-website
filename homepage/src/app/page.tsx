@@ -10,6 +10,14 @@ import { ChevronRight } from "lucide-react";
 /* ── データ定義 ── */
 
 const reports = [
+    {
+    tag: "イベント",
+    date: "2026.10.09",
+    title: "後期ガイダンス・交流会",
+    body: "新たに開設した部室にて、後期ガイダンスを開催しました。今期は計算資源としてDGX Sparkを2台導入し、小型LLM開発・モデル最適化・金融AIエージェントの3プロジェクトに取り組みます。ガイダンス後の交流会では、それぞれ興味のある分野について語り合いました。",
+    color: "blue" as const,
+    image: "/report-fall-guidance.jpg",
+  },
   {
     tag: "イベント",
     date: "2026.09.30",
