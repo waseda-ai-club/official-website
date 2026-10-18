@@ -10,7 +10,15 @@ import { ChevronRight } from "lucide-react";
 /* ── データ定義 ── */
 
 const reports = [
-    {
+  {
+    tag: "開発会",
+    date: "2026.10.16",
+    title: "金融AIエージェント開発会（導入）",
+    body: "部室にて、金融AIエージェント開発の導入となる開発会を開催しました。プロジェクトの概要と今後の進め方を共有したほか、全日本学生投資連盟（JPSI）との協賛や、同連盟が主催する国際投資大会「WIC」との連携についても紹介しました。終了後は、参加者同士で互いの興味や取り組みについて語り合いました。",
+    color: "green" as const,
+    image: "/report-finance-agent-kickoff.jpg",
+  },
+  {
     tag: "イベント",
     date: "2026.10.09",
     title: "後期ガイダンス・交流会",
