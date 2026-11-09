@@ -11,6 +11,14 @@ import { ChevronRight } from "lucide-react";
 
 const reports = [
   {
+    tag: "勉強会",
+    date: "2026.11.06",
+    title: "特別勉強会「AIに負けない！UI講座」",
+    body: "部室にて、特別勉強会「AIに負けない！UI講座」を開催しました。AI任せではありがちになるデザインを脱し、AIくささの出ないUIの作り方を学びました。質疑応答では、配色や黒背景・白背景の使い分け、Liquid Glassなど最新のデザイントレンドについても議論しました。終了後は、みんなでカレーを囲みました。",
+    color: "orange" as const,
+    image: "/report-ui-lecture.jpg",
+  },
+  {
     tag: "開発会",
     date: "2026.10.16",
     title: "金融AIエージェント開発会（導入）",
